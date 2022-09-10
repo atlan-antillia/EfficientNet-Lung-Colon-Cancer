@@ -415,3 +415,20 @@ Classification report:<br>
 Confusion matrix:<br>
 <img src="./projects/Lung-Colon-Cancer/evaluation/confusion_matrix.png" width="740" height="auto"><br>
 
+
+<br>
+<h3>
+References
+</h3>
+<b>
+A Machine Learning Approach to Diagnosing Lung and Colon Cancer Using a Deep Learning-Based Classification Framework
+</b><br>
+<pre>
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7865416/  
+</pre>
+<br>
+<b>Lung & Colon ALL 5 Classes | EfficientNetB7 | 98%</b> <br>
+<pre>
+https://www.kaggle.com/code/tenebris97/lung-colon-all-5-classes-efficientnetb7-98/data
+</pre>
+<br>
