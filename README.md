@@ -43,7 +43,7 @@ You will have the following directory tree:<br>
 .
 ├─asset
 └─projects
-    └─Lung-Color-Cancer
+    └─Lung-Colon-Cancer
         ├─eval
         ├─evaluation
         ├─inference        
@@ -59,7 +59,7 @@ Please download the dataset <b>Lung and Colon Image dataset</b> from the followi
 lung_colon_image_set</a>
 </a>
 <br>
-The <b>lung_color_image_set</b> has two sub directories, <b>colon_image_sets</b> and <b>lung_image_sets</b>:<br>
+The <b>lung_colon_image_set</b> has two sub directories, <b>colon_image_sets</b> and <b>lung_image_sets</b>:<br>
 <pre>
 lung_colon_image_set
   ├─colon_image_sets
@@ -70,7 +70,7 @@ lung_colon_image_set
       ├─lung_n
       └─lung_scc
 </pre>
-To simplify a dataset, we have created <b>Lung_Color_Images-master</b> dataset from the image_sets above:<br>
+To simplify a dataset, we have created <b>Lung_Colon_Images-master</b> dataset from the <b>lung_colon_image_set</b> above:<br>
 <pre>
 Lung_Colon_Images-master
   ├─colon_aca
@@ -139,9 +139,9 @@ pip install -r requirements.txt
 <br>
 
 <h2>
-<a id="2">2 Python classes for Breast Cancer Classification</a>
+<a id="2">2 Python classes for Lung Colon Cancer Classification</a>
 </h2>
-We have defined the following python classes to implement our Breast Cancer Classification.<br>
+We have defined the following python classes to implement our Lung Colon Cancer Classification.<br>
 <li>
 <a href="./ClassificationReportWriter.py">ClassificationReportWriter</a>
 </li>
@@ -174,7 +174,7 @@ We have defined the following python classes to implement our Breast Cancer Clas
 <h2>
 <a id="3">3 Pretrained model</a>
 </h2>
- We have used pretrained <b>efficientnetv2-m</b> to train Breast Cancer FineTuning Model.
+ We have used pretrained <b>efficientnetv2-m</b> to train Lung Colon Cancer FineTuning Model.
 Please download the pretrained checkpoint file from <a href="https://storage.googleapis.com/cloud-tpu-checkpoints/efficientnet/v2/efficientnetv2-m.tgz">efficientnetv2-m.tgz</a>, expand it, and place the model under our top repository.
 
 <pre>
@@ -182,7 +182,7 @@ Please download the pretrained checkpoint file from <a href="https://storage.goo
 ├─asset
 ├─efficientnetv2-m
 └─projects
-    └─Lung-Color-Cancer
+    └─Lung-Colon-Cancer
   ...
 </pre>
 
@@ -257,8 +257,6 @@ height_shift_range = 0.1
 shear_range        = 0.01
 zoom_range         = [0.3, 2.0]
 data_format        = "channels_last"
-
-
 </pre>
 
 <h3>
@@ -273,16 +271,10 @@ Training console output:<br>
 <img src="./asset/Lung-Colon-Cancer_train_console_output_at_epoch_50_0910.png" width="740" height="auto"><br>
 <br>
 Train_accuracies:<br>
-<!--
-<img src="./asset/Breat_Cancer_accuracies_at_epoch_25_0824.png" width="740" height="auto"><br>
--->
 <img src="./projects/Lung-Colon-Cancer/eval/train_accuracies.png" width="640" height="auto"><br>
 
 <br>
 Train_losses:<br>
-<!--
-<img src="./asset/Breast_Cancer_train_losses_at_epoch_25_0824.png" width="740" height="auto"><br>
--->
 <img src="./projects/Lung-Colon-Cancer/eval/train_losses.png" width="640" height="auto"><br>
 
 <br>
