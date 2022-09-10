@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+efficientnetv2-m/
+projects/Lung-Colon-Cancer/Lung_Colon_Images/
