@@ -75,13 +75,11 @@ git clone https://github.com/atlan-antillia/EfficientNet-Lung-Colon-Cancer.git
 You will have the following directory tree:<br>
 <pre>
 .
-├─asset
-└─projects
-    └─Lung-Colon-Cancer
-        ├─eval
-        ├─evaluation
-        ├─inference        
-        └─test
+├─eval
+├─evaluation
+├─inference
+├─models
+└─test
 </pre>
 <h3>
 <a id="1.2">1.2 Prepare Lung Colon Cancer dataset</a>
@@ -104,7 +102,7 @@ lung_colon_image_set
       ├─lung_n
       └─lung_scc
 </pre>
-To simplify a dataset, we have created <b>Lung_Colon_Images-master</b> dataset from the <b>lung_colon_image_set</b> above:<br>
+As a working master dataset, we have created <b>Lung_Colon_Images-master</b> dataset from the original <b>lung_colon_image_set</b> above:<br>
 <pre>
 Lung_Colon_Images-master
   ├─colon_aca
@@ -114,7 +112,7 @@ Lung_Colon_Images-master
   └─lung_scc
 </pre>
 Futhermore, we have created <b>Lung_Colon_Images</b> dataset by splitting the master dataset to
- train and test sets by <a href="./projects/Lung-Color-Cancer/split_master.py">split_master.py</a>.
+ train and test sets by using a script <a href="./projects/Lung-Colon-Cancer/split_master.py">split_master.py</a>.
 <br>
 <pre>
 Lung_Colon_Images
