@@ -23,10 +23,12 @@
  This is an experimental EfficientNetV2 Lung Colon Cancer Classification project based on <b>efficientnetv2</b> in <a href="https://github.com/google/automl">Brain AutoML</a>.
 <br>
  The original lung_colon_image_set has been taken from the following web site:<br>
-
+<a href="https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images">
+Lung and Colon Cancer Histopathological Images
+</a><br>
+See also:<br>
 <a href="https://www.kaggle.com/code/tenebris97/lung-colon-all-5-classes-efficientnetb7-98/data">
 Lung & Colon ALL 5 Classes | EfficientNetB7 | 98%%
-</a>
 </a>
 
 <b>About This Data:</b><br>
@@ -427,8 +429,13 @@ A Machine Learning Approach to Diagnosing Lung and Colon Cancer Using a Deep Lea
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7865416/  
 </pre>
 <br>
+<b>Lung and Colon Cancer Histopathological Images</b><br>
+<pre>
+https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images
+</pre>
+<br>
 <b>Lung & Colon ALL 5 Classes | EfficientNetB7 | 98%</b> <br>
 <pre>
 https://www.kaggle.com/code/tenebris97/lung-colon-all-5-classes-efficientnetb7-98/data
 </pre>
-<br>
+
